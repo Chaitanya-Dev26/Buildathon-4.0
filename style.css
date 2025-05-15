@@ -309,6 +309,7 @@
   .faq-item {
     border: 1px dotted black;
     border-radius: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     background: white;
     overflow: hidden;
