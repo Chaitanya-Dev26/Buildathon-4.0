@@ -11,6 +11,10 @@
     background-size: cover;
     color: #000;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   /* Header Styles */
   header {
@@ -40,9 +44,17 @@
     font-size: 16px;
     transition: color 0.3s ease;
   }
+
+  nav a.active {
+    color: #00bcd4;
+    font-weight: bold;
+    border-bottom: 2px solid #00bcd4;
+  }
   
   .navbar nav a:hover {
-    color: #ffcc00;
+    color: #00bcd4;
+    font-weight: bold;
+    border-bottom: 2px solid #00bcd4;
   }
   
   .register-btn {
@@ -61,7 +73,7 @@
   }
   
   .register-btn:hover {
-    background: #ffcc00;
+    background: #00bcd4;
     color: #000;
     transform: scale(1.08);
   }
@@ -207,13 +219,13 @@
   }
   
   .hero-content .register-now:hover {
-    background: #ffcc00;
+    background: #00bcd4;
     color: #000;
     transform: scale(1.08);
   }
   
   .countdown {
-    font-family: "Pixelify Sans", sans-serif;
+    /* font-family: "Pixelify Sans", sans-serif; */
     display: flex;
     justify-content: center;
     gap: 15px;
