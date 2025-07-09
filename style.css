@@ -387,3 +387,85 @@
     }
   }
   
+/* Schedule Table Styles */
+.schedule-section {
+  margin: 40px 0;
+  padding: 0 20px;
+}
+
+.schedule-title {
+  font-family: "Jersey 10", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.schedule-table {
+  width: 80%;
+  border-collapse: collapse;
+  background: none;
+  backdrop-filter: none;
+  color: #111;
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0 auto;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08), 0 2px 16px rgba(0,0,0,0.3);
+  border-radius: 18px;
+  overflow: hidden;
+  border: 2px solid #222;
+  position: relative;
+}
+
+.schedule-table th, .schedule-table td {
+  border: 1px solid #444;
+  padding: 16px 12px;
+  text-align: left;
+  font-size: 1.05rem;
+}
+
+.schedule-table th {
+  background: none;
+  color: #00bcd4;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-shadow: none;
+  border-bottom: 3px solid #00bcd4;
+}
+
+.schedule-table td {
+  position: relative;
+  z-index: 1;
+}
+
+.schedule-table tr {
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.schedule-table tr:nth-child(even) {
+  background: none;
+}
+
+.schedule-table tr:hover {
+  background: #00bcd4;
+  color: #000;
+}
+
+.schedule-table tr:hover td {
+  color: #000;
+}
+
+.event-icon {
+  font-size: 1.7rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  .schedule-title, .faq-title {
+    font-size: 2.2rem;
+  }
+  .schedule-table th, .schedule-table td {
+    font-size: 0.95rem;
+    padding: 10px 6px;
+  }
+}
+  

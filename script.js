@@ -1,7 +1,7 @@
 // Countdown Timer
 const countdown = () => {
     // Set the date/time for the event (example: June 20, 2025 at 10:00 AM)
-    const eventDate = new Date("June 20, 2025 10:00:00").getTime();
+    const eventDate = new Date("July 25, 2025 10:00:00").getTime();
   
     const interval = setInterval(() => {
       const now = new Date().getTime();
